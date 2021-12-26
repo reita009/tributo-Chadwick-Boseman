@@ -42,7 +42,7 @@ body{
 .main{
     border-radius: 20px;
     background-color:#2c2b2b;
-    width: 80%;
+    width: 60%;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +50,10 @@ body{
     box-shadow: 10px 15px 15px black;
 }
 .main .picture{
-    margin:auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
     width:100% ;
     max-width:600px ;
@@ -58,7 +61,101 @@ body{
     
 }
 .main .picture img{
+    border-radius: 20px;
     height: 600px;
     width: 100%;
     object-fit: cover
+}
+.desc-picture{
+    margin-top:20px;
+    width: 100%;
+    color:white;
+    text-align: center;
+}
+.desc-picture p{
+    font-size: 20px;
+}
+.section-2{
+    width: 60%;
+    margin:auto;
+}
+.icon{
+    padding: 30px;
+    height: auto;
+}
+.icon img{
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section .bio h1{
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+.title-info{
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+.title-info h1{
+    margin-bottom: 20px;
+}
+.box-group{
+    display: flex;
+    width: 100%;
+    
+    
+}
+.box{
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    height: 380px;
+    max-width: 280px;
+    background-color: #bdbdbd;
+    border-radius: 10px;   
+}
+.box p{
+margin: 10px;
+color: rgb(56, 54, 54);
+}
+footer {
+    margin: 30px;
+    color: white;
+    text-align: center;
+    border-bottom: rgb(100, 98, 98) solid 1px;
+    padding: 15px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+footer p{
+    font-size: 20px;
+}
+@media (max-width:500px) {
+   
+    .picture img{
+        max-height:400px ;
+    }
+}
+@media (max-width:800px) {
+    .desc p{
+        padding: 40px;
+    }
+    footer{
+        margin: 20px;
+    }
+}
+@media ( max-width: 1405px) {
+    .box-group{
+        flex-direction: column;
+    }
+    .box{
+        max-width: 100%;
+        margin-bottom: 10px;
+        height: 100%;
+    }
 }
