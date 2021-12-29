@@ -99,6 +99,7 @@ section .bio h1{
 }
 .title-info{
     border-bottom: 1px solid rgb(92, 92, 92);
+    margin-bottom: 30px;
 }
 .title-info h1{
     margin-bottom: 20px;
